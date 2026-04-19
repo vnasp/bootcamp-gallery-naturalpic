@@ -1,10 +1,48 @@
-# Galeria NaturalPic 🌿
+# NaturalPic Gallery
 
-* Sitio Web con galería de imágenes, buscador y lista de favoritos
-* React (useState, useRef)
-* React Router (NavLink, useNavigate)
-* React Context API (useContext)
-* Javascript
-* Consumo de API JSON
-* Boostrap y CSS personalizado
-* Deploy [[https://react-naturalpic.netlify.app](https://vnasp.github.io/naturalpic-frontend-user)](https://vnasp.github.io/naturalpic-frontend-user)
+Photo gallery built with React featuring search functionality and a favorites system. Users can browse nature photographs, search by keyword, and save their favorite images.
+
+> Academic project developed during the Full Stack JavaScript Bootcamp at Desafío LATAM.
+
+### Preview
+
+https://vnasp.github.io/bootcamp-gallery-naturalpic/
+
+### Features
+
+- Browse nature photography gallery with responsive grid
+- Search photos by keyword
+- Add/remove photos from favorites list
+- Persistent favorites with Context API
+- Client-side routing with 404 page
+- Data sourced from local JSON API (Pexels format)
+
+### Technologies
+
+- React 18
+- React Router 6
+- React Context API
+- Bootstrap 5
+- Vite
+
+### Project Structure
+
+```
+src/
+├── components/
+│   ├── FavoriteEmpty.jsx
+│   ├── FavoriteGrid.jsx
+│   ├── Footer.jsx
+│   ├── Gallery.jsx
+│   ├── IconHeart.jsx
+│   ├── Navigation.jsx
+│   └── Search.jsx
+├── context/
+│   └── PhotosContext.jsx
+├── views/
+│   ├── Favorites.jsx
+│   ├── Home.jsx
+│   └── NotFound.jsx
+├── App.jsx
+└── main.jsx
+```
